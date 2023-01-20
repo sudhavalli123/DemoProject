@@ -21,10 +21,5 @@ public class StudentController {
 
     }
 
-    public void testabc(Student student2){
-        this.student = student2;
-
-
-    }
 
 }
