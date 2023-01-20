@@ -11,4 +11,9 @@ public class StudentController {
 
     }
 
+    public void test(StudentService studentService1){
+        this.studentService = studentService1;
+
+    }
+
 }
