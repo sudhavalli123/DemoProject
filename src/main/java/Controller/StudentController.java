@@ -5,11 +5,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StudentController {
-    StudentService studentService;
+    StudentService studentService3;
     String abc;
-    public StudentController(StudentService studentService, String abc){
-        this.studentService = studentService;
-        abc =abc;
+    public StudentController(String  xyz, String abc){
+               abc =abc + xyz;
 
     }
 
