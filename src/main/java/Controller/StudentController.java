@@ -1,20 +1,20 @@
 package Controller;
 
 import Service.StudentService;
+import entity.Student;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class StudentController {
     StudentService studentService;
-    String abc;
-    public StudentController(StudentService studentService, String abc){
-        this.studentService = studentService;
-        abc =abc;
+    Student student;
+    public StudentController(String abc, Student student1){
+        this.student = student1;
 
     }
 
-    public void test(StudentService studentService1){
-        this.studentService = studentService1;
+    public void testabc(Student student2){
+        this.student = student2;
 
     }
 
